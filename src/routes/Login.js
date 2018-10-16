@@ -58,7 +58,7 @@ class Login extends Component {
   }
 
   render() {
-    // TODO: 서버랑 통신되면 여기 주석 풀기
+    // TODO: 서버랑 통신되면 여기 주석 없애기
     if(window.localStorage.getItem('token')){
       return <Redirect to ='/' />;
     }
